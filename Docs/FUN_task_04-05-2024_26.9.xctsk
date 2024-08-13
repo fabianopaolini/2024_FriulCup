@@ -1,0 +1,114 @@
+{
+  "version" : 1,
+  "taskType" : "CLASSIC",
+  "turnpoints" : [{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" :   13.175600,
+         "lat" :   46.273833,
+         "altSmoothed" : 1149.0,
+         "name" : "CUARNAN T OFF                           ",
+         "description" : "D01115        "
+       }
+       
+        ,
+        "type" : "TAKEOFF"
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" :   13.175600,
+         "lat" :   46.273833,
+         "altSmoothed" : 1149.0,
+         "name" : "CUARNAN T OFF                           ",
+         "description" : "D01115        "
+       }
+       
+        ,
+        "type" : "SSS"
+       
+     },{
+       "radius" : 3500.0,
+       "waypoint" : {
+         "lon" :   13.227583,
+         "lat" :   46.225333,
+         "altSmoothed" : 275.0,
+         "name" : "PALUZ LANDING                           ",
+         "description" : "A05027        "
+       }
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" :   13.115383,
+         "lat" :   46.251233,
+         "altSmoothed" : 180.0,
+         "name" : "LESSI CHURCH                            ",
+         "description" : "G10018        "
+       }
+       
+     },{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" :   13.175600,
+         "lat" :   46.273833,
+         "altSmoothed" : 1149.0,
+         "name" : "CUARNAN T OFF                           ",
+         "description" : "D01115        "
+       }
+       
+     },{
+       "radius" : 3000.0,
+       "waypoint" : {
+         "lon" :   13.227583,
+         "lat" :   46.225333,
+         "altSmoothed" : 275.0,
+         "name" : "PALUZ LANDING                           ",
+         "description" : "A05027        "
+       }
+       
+     },{
+       "radius" : 7000.0,
+       "waypoint" : {
+         "lon" :   12.997250,
+         "lat" :   46.272083,
+         "altSmoothed" : 1301.0,
+         "name" : "CUAR MOUNT                              ",
+         "description" : "G31130        "
+       }
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" :   13.113033,
+         "lat" :   46.306300,
+         "altSmoothed" : 225.0,
+         "name" : "BORDANO LANDING                         ",
+         "description" : "A04022        "
+       }
+       
+        ,
+        "type" : "ESS"
+       
+     },{
+       "radius" : 300.0,
+       "waypoint" : {
+         "lon" :   13.113033,
+         "lat" :   46.306300,
+         "altSmoothed" : 225.0,
+         "name" : "BORDANO LANDING                         ",
+         "description" : "A04022        "
+       }
+       
+     }
+  ],
+  "sss" : {
+    "type" : "RACE",
+    "direction" : "EXIT",
+    "timeGates" : ["14:00:00Z"]
+  },  
+  "goal" : {
+    "type" : "CYLINDER",
+    "deadline" : "19:00:00Z"
+  }
+}

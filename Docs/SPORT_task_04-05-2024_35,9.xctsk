@@ -1,0 +1,114 @@
+{
+  "version" : 1,
+  "taskType" : "CLASSIC",
+  "turnpoints" : [{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" :   13.175600,
+         "lat" :   46.273833,
+         "altSmoothed" : 1149.0,
+         "name" : "CUARNAN T OFF                           ",
+         "description" : "D01115        "
+       }
+       
+        ,
+        "type" : "TAKEOFF"
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" :   13.175600,
+         "lat" :   46.273833,
+         "altSmoothed" : 1149.0,
+         "name" : "CUARNAN T OFF                           ",
+         "description" : "D01115        "
+       }
+       
+        ,
+        "type" : "SSS"
+       
+     },{
+       "radius" : 3000.0,
+       "waypoint" : {
+         "lon" :   13.227583,
+         "lat" :   46.225333,
+         "altSmoothed" : 275.0,
+         "name" : "PALUZ LANDING                           ",
+         "description" : "A05027        "
+       }
+       
+     },{
+       "radius" : 8000.0,
+       "waypoint" : {
+         "lon" :   13.002450,
+         "lat" :   46.336567,
+         "altSmoothed" : 1193.0,
+         "name" : "PICIAT MOUNT                            ",
+         "description" : "G36120        "
+       }
+       
+     },{
+       "radius" : 6000.0,
+       "waypoint" : {
+         "lon" :   13.121500,
+         "lat" :   46.216667,
+         "altSmoothed" : 314.0,
+         "name" : "BUIA MOUNT                              ",
+         "description" : "G16032        "
+       }
+       
+     },{
+       "radius" : 8000.0,
+       "waypoint" : {
+         "lon" :   13.002450,
+         "lat" :   46.336567,
+         "altSmoothed" : 1193.0,
+         "name" : "PICIAT MOUNT                            ",
+         "description" : "G36120        "
+       }
+       
+     },{
+       "radius" : 1500.0,
+       "waypoint" : {
+         "lon" :   13.176533,
+         "lat" :   46.228567,
+         "altSmoothed" : 200.0,
+         "name" : "MAGNANO VILLAGE                         ",
+         "description" : "G09020        "
+       }
+       
+     },{
+       "radius" : 1500.0,
+       "waypoint" : {
+         "lon" :   13.113033,
+         "lat" :   46.306300,
+         "altSmoothed" : 225.0,
+         "name" : "BORDANO LANDING                         ",
+         "description" : "A04022        "
+       }
+       
+        ,
+        "type" : "ESS"
+       
+     },{
+       "radius" : 300.0,
+       "waypoint" : {
+         "lon" :   13.113033,
+         "lat" :   46.306300,
+         "altSmoothed" : 225.0,
+         "name" : "BORDANO LANDING                         ",
+         "description" : "A04022        "
+       }
+       
+     }
+  ],
+  "sss" : {
+    "type" : "RACE",
+    "direction" : "EXIT",
+    "timeGates" : ["14:00:00Z"]
+  },  
+  "goal" : {
+    "type" : "CYLINDER",
+    "deadline" : "19:00:00Z"
+  }
+}

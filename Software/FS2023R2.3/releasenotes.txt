@@ -1,0 +1,612 @@
+Release Notes for FsComp
+
+FS2023 R2.2
+--------------------------------------------------------
+Release date: 12 September 2023
+- Fix a bug in GAP2023 where wrong leading weight was used for PG competitions (bug fixed for FS2023 R1.2, was re-introduced in FS2023 R2.0)
+
+FS2023 R2.2
+--------------------------------------------------------
+Release date: 27 August 2023
+- For time validity in stopped tasks with nobody in goal, use real distance, not bonus distance
+- Only consider crossings that occur after cylinder opening time, but not those exactly at opening time
+- Fixed bug where in some cases, due to rounding errors, 0.1 time points too many were distributed
+- For missing area in LC calculation, also consider last finish time of pilots landing short of ESS
+
+FS2023 R2.1
+--------------------------------------------------------
+Release date: 23 August 2023
+- Use correct speed section distance calculation for PWC formulas
+- Fixed bug where in some cases, due to rounding errors, 0.1 time points too many or too few were distributed
+
+FS2023 R2.0
+--------------------------------------------------------
+Release date: 20 August 2023
+- Now includes PWC2023 scoring formula. PWC2019 is now part of the Legacy Formula Pack
+- Bugfix: no more error message when exiting task editor if map view is turned off
+
+FS2023 R1.4
+--------------------------------------------------------
+Release date: 18 August 2023
+- When tracklog filtering is used, pick best segment based on actual scored distance, rather than just the number of turnpoint crossings
+- In map view, show progress bar when checking all tracks for airspace violation
+- In map view, when checking all tracks for airspace violation, only use scored segment of multi-flight track files to determine if a file contains an airspace violation
+- To help with debugging, always include stack trace in debug output
+- Fix bug introduced in FS2023 R1.0 where in PWC formulas, leading weight was calculated wrong
+
+FS2023 R1.3
+--------------------------------------------------------
+Release date: 12 August 2023
+- Fix a bug where "jump the gun" was not correctly evaluated for IGC files containing multiple potential flights (movement before and after the actual flight)
+
+FS2023 R1.2
+--------------------------------------------------------
+Release date: 11 August 2023
+- Fix a bug in GAP2023 where wrong leading weight was used for PG competitions
+- Automatically update tracks list in map view if files are changed outside of FS
+- Improved flight detection in track files containing multiple flights
+
+FS2023 R1.1 (internal)
+--------------------------------------------------------
+Release date: 8 August 2023
+- Fix a bug in GAP2023 where wrong leading weight was used for HG competitions
+
+FS2023 R1.0
+--------------------------------------------------------
+Release date: 24 July 2023
+- Add GAP2023 scoring formula (see section 7F of FAI sporting code, 2023 edition, for details)
+- Improve IGC file processing, use best flight in file even if filters are turned on
+- Update GpsDump to version 5.44
+
+FS2022 R1.15
+--------------------------------------------------------
+Release date: 05 July 2023
+- Fixed bug where wrong task deadline was used for pilot who did not reach the start
+- Fixed bug where FTV factor was off by factor 100 for pre-defined categories
+- Work with relative instead of absolute paths for waypoint files
+- Fixed bug in task results, show NYP list if there are NYP pilots
+- Fixed bug in Elapsed Time races, where re-starts where ignored
+- Fxied bug where FS crashed if pilot's current IGC file is re-imported
+- Fixed bug where FS crashed if IGC file didn't contain any points within the launch window
+- Mark task as "need to save" after creating results
+- Fixed bug where jump-the-gun penalty was also applied if start was never taken
+- Fixed bug where if no pilot was in goal, the wrong time was as used as maxTime to calculate the "missing part" in LC calculations
+- Fixed bug where FTV produced wrong results if one or more tasks had validity of 0
+- Improvement in map view: Mark last counting and final tracklog points in more intuitive colors
+
+FS2022 R1.10
+--------------------------------------------------------
+Release date: 12 March 2023
+- Fixed bug where in tasks originally created in FS2022 R1.8 or earlier, after re-scoring in FS2022 R1.9, only pilots in goal received leading points
+
+FS2022 R1.9
+--------------------------------------------------------
+Release date: 8 February 2023
+- Implement S7A 6.2.1 (task winner with 100% penalty is set to ABS)
+- Re-implementation of tracklog evaluation, to reduce the number of times an IGC file is read and interpreted
+- Only consider actual points from tracklogs, no more interpolation for turnpoint crossings
+- In competition results, only show pilots who flew at least one task
+- Fixed bug in leading points calculation for pilots landing out
+- Fix mouseover row marking in task results
+- In task results, only show "NYP" section if there actually are NYP pilots
+- Improve task import from FSDB
+	- update tracklog folder path to be reachable from target FSDB
+	- re-score all necessary tasks after import
+- Usability improvements
+	- Show progress bar while checking tracklogs and creating results
+	- In task view, when performing operation on pilot (e.g. "check tracklog"), keep that pilot selected instead of always jumping to the top of the list
+	- Offer both "Set task to NYP" (keeping penalties and bonuses) and "Reset task" (throwing away everthing)
+	- Keep penalties and bonuses after editing task definition
+	- In scoring formula selection, sort GAP and PWC from newest to oldest
+	- Allow setting of waypoints file in competition settings, will be automatically opened in task editor
+	- Map view: no automatic track selection in calculation-intensive scenarios
+	- In map view, process track files only once and show those results until something changes
+- Update GpsDump to version 5.43
+
+FS2022 R1.8
+--------------------------------------------------------
+Release date: 18 August 2022
+- Correctly calculate launch validity for GAP and PWC, taking into account the slight differences in their respective specifications
+- Predefined categories: Include category name in results title in the FSDB for better distinction in EMS
+
+FS2022 R1.7
+--------------------------------------------------------
+Release date: 18 August 2022
+- Ensure that a launcht TP is set before SSS, to correctly handle Elapsed Time tasks
+- Stopped tasks for Elapsed Time tasks and Race to Goal with multiple start gates: Use start crossing that gives biggest distance
+- Ensure correct handling of tasks with TP between launch and SSS
+
+FS2022 R1.5
+--------------------------------------------------------
+Release date: 25 June 2022
+- Improved handling of stopped elapsed time tasks and races with multiple start gates: Use same start crossing in all calculations
+- After opening a new competition, reset report output directory to FSDB location
+- Removed unnecessary copy of images in report output directory
+- Removed obsolete template for WPRS upload
+- Format cells in task view: right-align all numeric columns
+- Correctly calculate speed in task view as speed over speed section
+
+FS2022 R1.3
+--------------------------------------------------------
+Release date: 5 May 2022
+- Fixed bug where scoring Elapsed Time tasks resulted in an error message 
+
+FS2022 R1.2
+--------------------------------------------------------
+Release date: 8 April 2022
+- Fixed bug where pilots who "jump the gun" are scored for their first start, instead of their last start before the first gate time
+- Fixed bug where the penalties list was not shown in the task results if they only contained automatic (e.g. jump the gun) penalties
+- Fixed bug where in pre-defined categories, not all tasks were re-scored when necessary
+- Update GpsDump to version 5.41
+
+FS2022 R1.1
+--------------------------------------------------------
+Release date: 13 March 2022
+- Fixed bug in speed section distance calculation, distance is now correct
+- Fixed bug in pre-defined categories with separate scoring, uses now separate scoring in all cases
+- Switch to new CIVL Event Management System (EMS): In participant detail window, offer direct link to pilot's profile (based on CIVL ID)
+- Disabled "Search CIVL DB" button, until functionality is provided by EMS
+
+FS2022 R1.0
+--------------------------------------------------------
+Release date: 2 February 2022
+- Implement calculation of task and speed section distance according to new definition by 2022 CIVL Plenary
+- New feature: option to pre-define categories for a competition. Results will then be produced for overall and all pre-defined categories
+
+FS2021 R1.2
+--------------------------------------------------------
+Release date: 24 August 2021
+- Fix bug where creating competition results for "top x" tasks produced an Index out of Bounds error
+
+FS2021 R1.1
+--------------------------------------------------------
+Release date: 8 August 2021
+- Fix bug where no points were awarded in stopped tasks with no pilots in goal
+- Fix bug where an "Index out of bounds" error was reported when adding a turnpoint to a task
+- Fix bug where line breaks in pilots' sponsor lists made the WPRS competition results report invalid
+- Use CIVL ID as the main criteria to merge pilots when importing tasks
+- Update GpsDump to version 5.40
+- Added libcurl.dll required by GpsDump
+
+FS2021 R1.0
+--------------------------------------------------------
+Release date: 3 July 2021
+- GAP2021: Start the Leading Coefficient graph used for leading points calculation at task start time
+- GAP2021: Fix error in time points reduction formula in stopped tasks with multiple start gates
+- PWC2019, GAP2020 and 2021: Improve leading points calculation for pilots landing out
+- WPRS results report with filter not working
+- Rounding error in task results
+- Error in distance calculation
+- FTV considers cancelled tasks
+- Task winner's points can be 1000.1
+- When creating a new task, it cannot be set to "stopped" right away
+- Competition results show full counting tasks as "discarded", but with full points counting
+- Update GpsDump to version 5.39
+
+FS2020 R1.10
+--------------------------------------------------------
+Release date: 7 August 2020
+- Bugfix: WPRS report includes pilots multiple times
+- Bugfix: Category competition score reports come up empty
+
+FS2020 R1.9
+--------------------------------------------------------
+Release date: 18 July 2020
+- Bugfix: task result titles were overwritten by competition result titles
+- In competition and team results, note the IDs of covered tasks. Keep results for different task sets
+- When creating competition and team results, also store intermediate results if they do not exist already
+- When scoring a task, only remove affected competition and team results
+
+FS2020 R1.8
+--------------------------------------------------------
+Release date: 8 July 2020
+- Fix bug where that prevented the creation of open distance tasks
+
+FS2020 R1.7
+--------------------------------------------------------
+Release date: 6 July 2020
+- Fix bug where in some cases distance and distance points did not show in the task results
+
+FS2020 R1.6
+--------------------------------------------------------
+Release date: 29 June 2020
+- Fix bug where in stopped tasks, all pilots could get 0 points
+- Small task result sheet improvements
+
+FS2020 R1.5
+--------------------------------------------------------
+Release date: 25 June 2020
+- Fix another bug in competition results on computers which have the decimal separator set to ","
+- Update GpsDump to version 5.36
+
+FS2020 R1.4
+--------------------------------------------------------
+Release date: 20 June 2020
+- Fix a bug where competition results were off by factor 10 on computers which had the decimal separator set to ","
+
+FS2020 R1.2
+--------------------------------------------------------
+Release date: 16 June 2020
+- Fix a bug in the task and speed section distance calcualation that lead to wrong speed section distances
+- Fix a bug in pilot distance calculation that could lead to wrong results in tasks with multiple start gates
+
+FS2020 R1.1
+--------------------------------------------------------
+Release date: 24 May 2020
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#286	Detect re-start after taking first turnpoint
+#371	GAP 2020: Remove final glide decelerators
+#372	GAP 2020: No more prescribed turnpoint direction (including start)
+#373	GAP 2020: clarify task distance calculation
+#374	GAP 2020: Use constant leading weight for paragliding
+#375	GAP 2020: Task results are given with one decimal point, only round once when calculating competition results
+#376	GAP 2020: Adopt the PWCA’s leading points calculation for paragliding
+#377	GAP 2020: Adopt the PWCA’s time points calculation for paragliding and hang-gliding
+#378	GAP 2020: Minimum time for stopped tasks depends on nominal time
+#379	GAP 2020: In stopped tasks, redistribute removed time points as distance points
+#380	GAP 2020: In FTV, use best score for FTV validty
+#381	Include FTV and team results in FSDB file
+#382	Category scoring as independent competition scoring instead of filter
+#383	Exception when using shortcut link to file that has been removed
+#384	FsFlight grabs focus whenever mouse is moved over map window
+#386	Task map: Show cylinders based on WGS84, not UTM
+#388	Wrong crossing times if SS is first TP
+#389	Task results: Include QNH setting in task statistics
+#390	Uninstaller does not fully clean up
+- Update GpsDump to version 5.35
+
+FS2019 R1.3.2
+--------------------------------------------------------
+Release date: 18 January 2020
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+- Fix bug that prevented flights which did not leave the first cylinder from bein scored correctly
+- Show "waiting" mouse cursor during long tasks (checking tracks, scoring
+
+FS2019 R1.3.1
+--------------------------------------------------------
+Release date: 5 January 2020
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+- Fix error during task entry
+
+FS2019 R1.3
+--------------------------------------------------------
+Release date: 24 December 2019
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+- PWC2019 scoring formula added
+- Drag-and-drop IGC file import added
+- Show all crossings: The one that is used for scoring in green, all others in orange (turn on/off in View menu)
+- Show all individual track points (turn on/off in View menu)
+- Show turnpoint tolerance band (turn on/off in View menu)
+- Show optimal speed-section route (turn on/off in View menu)
+- Show route through turnpoint centers (turn on/off in View menu)
+- Show cylinders for FAI sphere or WGS84 (turn on/off in View menu)
+- Speed section distance and launch to ESS distance calculations corrected
+- When distance measurement window is open, measuring distance with right mouse click will add coordinates into measurement window
+- Maximum zoom level increased
+- Map zoom with mouse wheel
+- Turnpoint editing window layout improved
+- No longer show error when turnpoint is edited before SS is set
+- Show distance measurements with centimeter accuracy
+- GAP parameter window layout improved
+- Minimum absolute tolerance moved to advanced GAP settings
+- Improved internal handling of airspace data
+- Improved algorithm to find pilot's best distance, fixed bug where algorithm would take a very long time to complete if pilot missed an early turnpoint
+- Add scroll bar to field selection window for reports with filters
+
+FS2019 R1.2
+--------------------------------------------------------
+Release date: 2 September 2019
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+- Default leading weight factor 1 for all comps except FAI Category 1
+- Correct grandfathering-in of comps with older GAP or PWC formulas
+- Fix problem with pilots manually set to DF
+- Correct FTV validity for PWC formulas
+- Correct bug where results were lost when importing task from second FSDB
+- Update GpsDump to version 5.34
+
+FS2019 R1.1
+--------------------------------------------------------
+Release date: 18 July 2019
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+- In competitions where the penalty for landing between ESS and goal is less than 100% of time and arrival points (mainly HG): 
+  Use time of first pilot at ESS for "best time" (as was before FS2019 R1.0)
+
+FS2019 R1.0
+--------------------------------------------------------
+Release date: 07 July 2019
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+- Turnpoint tolerance for FAI Category 1 events: 0.1%
+- For "best time", use the time of the fastest pilot at ESS who also reached goal
+- Fix bug in calculation of stopped task validity
+- Fix bug in calculation of distance validity
+- Fix bug in calculation of time points in stopped tasks with pilots in goal$
+- Improve FSDB output, avoid large negative numbers when no value would be good enough
+- Update GpsDump to version 5.31
+
+FS2018 R1.5 (WGS84 ellipsoid)
+--------------------------------------------------------
+Release date: 09 February 2019
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+- Fix bug where JumpTheGun was not applied in some cases.
+- Add PWC2017 scoring formula (as used in the Paragliding World Cup in 2018)
+- Update GpsDump to version 5.26
+
+FS2018 R1.4 (WGS84 ellipsoid) / FS2016 R1.9 (FAI sphere)
+--------------------------------------------------------
+Release date: 30 August 2018
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+- correct bug where pilot was given distance 0 in a stopped task if he or she reached a TP exactly at (task stop time - score-back time)
+
+FS2018 R1.3 (WGS84 ellipsoid) / FS2016 R1.8 (FAI sphere)
+--------------------------------------------------------
+Release date: 15 August 2018
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#369: Use correct turn direction for airspaces. Until now, circle segments defined by two points were drawn in the wrong direction
+- correct bug in team results template, showing task distance again correctly
+- changed way how logos are integrated in result sheets, to make it easier for organizers to publish them correctly
+- fixed a bug in the GAP formula implementation: leading weight was calculated as if a pilot had reached goal if at least one 
+  pilot reached ESS. Now the increased leading weight is used also for the case where one or more pilots reach ESS, but none 
+  reach goal.
+- Update GpsDump to version 5.22
+
+FS2018 R1.1
+-----------
+Release date: 17 June 2018
+Distance calculation: WGS84 ellipsoid (for FAI sphere, use FS2016)
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#363: GAP 2018: More options for leading points weight
+#362: GAP 2018: Goal line is always a semi circle
+#367: FS 2018: Include FAI sanctioning status in competition settings
+#366: FS 2018: Make turnpoint radius tolerance a scoring parameter, default to 0.05% for FAI Category 1 events, 0.5% for all others
+#365: FS 2018: Distance measurements on WGS84 ellipsoid
+- Show sample points distribution for current settings in GAP scoring formula advanced settings
+- Correct altitude behavior:
+	- For new competitions, use QNH as default
+	- In competitions with QNH, allow setting of QNH in task editor
+	- Use selected altitude (QNH or GPS) whenever altitude is relevant
+- Enhance "Help" menu with useful links
+- Add "About FsComp", listing all contributors
+- Include 2018 version of CIVL GAP documentation
+
+FS2016 R1.7
+-----------
+Release date: 17 June 2018
+Distance calculation: FAI sphere (for WGS84 ellipsoid, use FS2018)
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+Add a 5m minimum to the turnpoint radius tolerance, to be compliant with the 2018 CIVL Plenary decision
+- Update GpsDump to version 5.21
+- Include 2018 version of CIVL GAP documentation
+
+FS2016 R1.6
+-----------
+Release date: 03 June 2018
+Distance calculation: FAI sphere (for WGS84 ellipsoid, use FS2018)
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+Add a 5m minimum to the turnpoint radius tolerance, to be compliant with the 2018 CIVL Plenary decision
+- Update GpsDump to version 5.21
+
+FS2016 R1.5
+-----------
+Release date: 15 July 2017
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+Fix a bug where a pilot receives 0 leading points if he or she reached a turnpoint at exactly the task stop time
+
+FS2016 R1.3
+-----------
+Release date: 15 May 2017
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#360: Fix another track evaluation bug
+#361: Correct implementation of stop validity: 100% if at least 1 pilot reached ESS (was "reached goal")
+
+FS2016 R1.2
+-----------
+Release date: 8 May 2017
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#357: No more Excpetion when evaluating stopped task where pilots were between ESS and goal for large legs between ESS and goal
+#358: TrueAltitude removed, no longer shows up in altitude used for bonus distance calculation in stopped tasks
+#359: No more "IndexOutOfRangeException" when evaluating tracks in competition where the first TP is SSS
+- Update GpsDump to version 5.14
+
+FS2016 R1.1
+-----------
+Release date: 3 May 2017
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#356: No more "IndexOutOfRangeExcpetion" when evaluating tracks in hang gliding competitions
+
+FS2016 R1
+---------
+Release date: 27 April 2017
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#352: Task participant detail window size corrected
+#353: Evaluating track of pilot landing before TP1: distance = 0. Fixed
+#354: Elapsed time tasks: Error when evaluating track of pilot who landed before first turnpoint - fixed
+#355: PWC 2016: formula would show up as "PWC 2015" - fixed
+- Update GpsDump to version 5.13
+
+FS2016
+------
+Release date: 26 February 2017
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#339: Wrong distance if first TP not reached - fixed
+#343: GAP 2016: Change to default penalty points for Jump the gun
+#350: GAP 2016: Changes to leading points for PG
+#351: PWC 2016: Changes to time points
+- Include most recent CIVL GAP specification document: 2016 CIVL GAP (V1.0).pdf
+- Uninstaller now removes all files and directories
+
+FS2015 R5
+---------
+Release date: 20. January 2017
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#348: Process new date format in IGC files ("HFDTEDATE:")
+- Update GpsDump to version 5.12
+
+FS2015 R4
+---------
+Release date: 20. August 2016
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#331: Open Distance calculation is wrong
+#337: Change arrival weight if both arrival time points and leading points are used
+#338: Increase value maximum for jump the gun
+#345: Task with 0 points has negative day quality
+#346: Country code changes (ISO to IOC) are not saved in FSDB file
+#347: Allow for longer sponsor entries
+- Use barometric altitude instead of GPS altitude
+- Update GpsDump to version 5.10
+
+FS2015 R2
+---------
+Release date: 3. October 2015
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#324: Corrected distance calculation in open distance tasks 
+#330: Fix birthday formats when importing pilots or opening FSDB file
+#331: Corrected distance calculation in open distance tasks
+#334: Jump the gun factor 1: No penalty calculated
+- Merge pilots and tasks from multiple competitions (Tools - Usefull stuff - Import tasks from FSDB)
+- Update GpsDump to version 4.90
+
+FS2015 R1
+---------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#315: Include competition ID in WPRS results files
+#319: Fix to make the day quality override in the Advanced scoring formula settings work
+#320: Fix a bug where competition files created on older version of FS always gave 0 points to all 
+competitors
+#322: Fix a bug where launch validity for GAP 2013 and older was always either 0 or 1
+#325: When loading a waypoints file, always suggest the last waypoints file used
+#326: Fix a bug where PWC altitude arrival points were not shown on the task results sheet
+#327: GAP2015: Use distance^2 for LC calculations also in HG comps
+#329: GAP2015: Final glide decelerator no longer mandatory in PG comps
+- Update GpsDump to version 4.89
+
+FS2014 R1.5
+-----------
+Fix bug in distance weight calculation: use goal ratio, as defined in specification, rather than ESS ratio
+Allow size changes for advanced score formula settings window
+
+FS2014 R1.4
+-----------
+Fix bug where FTV validity was incorrectly calculated in stopped tasks
+
+FS2014 R1.3
+-----------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#314: Automatic update of tracklog list in FsFlight (the task map view) works again
+Improved task distance calculation
+Fix bug where wrong CESS crossing was calculated if crossing occurred without altitude change
+Fix bug where CESS crossing was not detected if track contains no GPS altitude information
+Improved competition result output for FTV competitions 
+- Update GpsDump to version 4.86
+
+FS2014 R1.2
+-----------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#305: Resize competition details window to make all buttons visible6
+#306: Resize task details window to make all buttons visible
+#307: Correctly read FTV value from FSDB file and show in competition details window
+#308: Fix bug where in some cases goal cylinder crossings and CESS crossings were calculated with a wrong time
+#309: Fix bug where a track could not be evaluated if two adjacent points near the CESS had the identical distance to the turnpoint
+#310: Change default bonus glide ratio for hang gliding competitions to 5
+#311: Turn off difficulty calculation when switching from HG to PG settings in GAP 2014
+
+FS2014 R1.1
+-----------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#303: Fix bug introduced in FS2014 R1: error message when checking track of pilot who did not reach SS
+
+FS2014 R1 (unreleased)
+----------------------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#288: GAP 2014: Introduce additional competition parameter: Nominal launch
+#289: In PWC formulas, use standard format (hh:mm) for nominal time entry
+#290: New goal shape for GAP and PWC 2014 (semi circle behind goal line) for paragliding only
+#291: GAP 2014: final glide decelerators (Conical End of Speed Section / Arrival Altitude Time Bonus) for paragliding
+#292: GAP 2014: purely linear distance points for paragliding
+#293: GAP 2014: Remove 2011 penalty factors for tasks with no pilots in goal (paragliding only)
+#294: GAP 2014: Adjust leading points calculation for paragliding (use PWC system)
+#295: GAP 2014: No more arrival points for paragliding
+#296: GAP 2014: New stopped task handling (use PWC system)
+#297: GAP 2014: FTV for competition results
+#298: GAP 2014: REmove option to use different pilot than 1st to calculate time validity
+#299: In track viewer, mark valid cylinder crossings and other points of interest
+#300: Use (and store) waypoint altitude for all turnpoints
+#301: GAP 2014: Adjusted method to calculate bonus distance in stopped task: PWC system (find best bonus distance for whole track)
+#302: Show CIVL logo on result sheets
+- Update GpsDump to version 4.84
+
+FS2013 R3.2
+-----------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#287: Fixed bug where goal line crossing time was given in UTC instead of local time
+
+FS2013 R3.1
+-----------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#279: Fixed bug in task result template where SSS was given in UTC instead of local time
+#285: Fixed contents of installation file
+
+FS2013 R3
+---------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#277: Fixed bug in task result template: task definition header row
+#278: Include PWC Arrival Altitude Points in task results
+#280: Include missing task result template in installation file
+
+FS2013 R2
+---------
+(#xxx: Ticket in the FS issue tracking system at http://fs.fai.org/trac)
+#255: Fixed bug that prevented Open Distance tasks from being scored
+#256: Fixed bug that prevented "Race to Anywhere" or "Dutch Cylinder" races from being scored
+#258: Created a more general solution for team scoring: Make it possible to, for example, score only the 2nd and 3rd pilot in a team
+#259: Fixed a bug where under certain conditions a pilot's nation information was lost while editing that pilot's data
+#260: Fixed a bug where pilots who did not reach SSS always received minimum distance, even if they flew further
+#263: Fixed a bug where if a pilot's flight information was set manually (DF), the maximum altitude was set to a large negative number
+#264: Fixed a bug where setting a flight manually (DF) in Open Distance tasks produced an error message and did not work
+#265: Fixed a bug where if waypoints using the naming format xxx-yy produce an error message when editing tasks
+#266: Allow importing IGC trackfiles besides KML files
+#267: Fixed a bug where the results output in HTML did not always display the line currently under the mouse pointer in yellow in Internet Explorer
+- Update GpsDump to version 4.77
+
+FS2013
+------
+- Event view: Select whether competition is hang gliding or paragliding - affects presets of GAP technical parameters
+- Formula picker: Enable double click to select a formula
+- Formula editor: Separate GAP parameters from technical, "advanced" parameters, in two screens. Allow pre-setting the 
+  technical parameters for GAP2000, OzGAP2005 or GAP2013, and also for PG or HG comps.
+- Implemented GAP2013 formula. Just for naming consitency, no changes since 2012.
+- Implemented PWC2013 formula. Difference to GAP2013: Launch validity; distance points are awarded linearly, no more 
+  difficulty evaluation; stopped tasks with fixed score-back time; stopped-task-validity; in stopped tasks, pilots
+  between ESS and goal are scored for complete flight; in stopped tasks time-points for pilots making goal are reduced 
+  by the amount of points a pilot would have gotten if he'd crossed ESS at exactly the stop time; if goal and ESS are 
+  identical, calculate and award altitude arrival points.
+- Task view: Double Click on Task to edit task.
+- Task view: Enabled user ordering of task participant columns 
+- Task view: Enabled user width change of task participant columns 
+- Task view: Added the following columns to Task Participants list: Speed (populated for pilots who have finished SS),
+  Distance Points, Time Points, Arrival Points, Departure Points, Leading Points, Total Points Rank
+- Task edit view: Moved goal altitude, is now always enabled, gets pre-populated if last turnpoint follows the NNNAAA 
+  format
+- Task edit view: Depending on formula, score-back-time can be pre-populated and is not editable in that case. 
+  E.g. PWC2013 sets this to a fixed 5 minutes (as opposed to GAP).
+- Flight view: Fix bug in flight information output (wrong information displayed, bad formatting)
+- Update GpsDump to version 4.76
+
+1.3.4
+-----
+- Fixed bug where cylinder crossings were not always recognized correctly (introduced in 1.3.3)
+
+1.3.3
+-----
+- Fixed bug where cylinder crossings were not always recognized correctly (introduced in 1.3.2)
+
+1.3.2
+-----
+- Fixed bug where if a pilot did not reach the first turnpoint after SSS, the start time was miscalculated (first time they crossed the cylinder instead of last time)
+
+1.3.1
+-----
+- Ticket #10: Add and delete buttons for turn points in task setup window
+- Ticket #55: Show both turn point names and descriptions in task setup window
+- Ticket #150: Simplified search for participant details in CIVL database
+- Adjusted GAP2011 to reflect rule changes made by the 2012 Plenary: Jump the Gun for Hang Gliding competitions
+- Fixed bug where in stopped tasks, the complete track until landing was considered for leading points calculation

@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1"
+     creator="GpsDump 4.92"
+     version="1.1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <link href="http://www.gethome.no/stein.sorensen/">
+      <text>GPS dump for www.flightlog.org</text>
+    </link>
+    <time>2016-05-27T06:19:53Z</time>
+    <bounds minlat="46.004657" minlon="12.419658" maxlat="46.670578" maxlon="13.676613"/>
+  </metadata>
+  <wpt lat="46.424236" lon="13.050556">
+    <ele>573.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A08057</name>
+    <cmt>ILLEGIO LANDING</cmt>
+    <desc>ILLEGIO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.497622" lon="13.004250">
+    <ele>562.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A12056</name>
+    <cmt>ALZERI LANDING</cmt>
+    <desc>ALZERI LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.523491" lon="13.123790">
+    <ele>620.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A13062</name>
+    <cmt>PAULARO LANDING</cmt>
+    <desc>PAULARO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.520050" lon="12.917282">
+    <ele>899.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A17090</name>
+    <cmt>RAVASCLETTO LANDING</cmt>
+    <desc>RAVASCLETTO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.500816" lon="12.880418">
+    <ele>824.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A18082</name>
+    <cmt>CLAVAIS LANDING</cmt>
+    <desc>CLAVAIS LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.426349" lon="13.008649">
+    <ele>368.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A09037</name>
+    <cmt>CASANOVA LANDING</cmt>
+    <desc>CASANOVA LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.404582" lon="12.884581">
+    <ele>373.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A11037</name>
+    <cmt>ENEMONZO LANDING</cmt>
+    <desc>ENEMONZO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.524281" lon="13.004035">
+    <ele>557.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A14056</name>
+    <cmt>CERCIVENTO LANDING</cmt>
+    <desc>CERCIVENTO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.252766" lon="13.141100">
+    <ele>198.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A02020</name>
+    <cmt>ORVENCO LANDING</cmt>
+    <desc>ORVENCO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.267766" lon="13.140166">
+    <ele>198.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A01020</name>
+    <cmt>GODO LANDING</cmt>
+    <desc>GODO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.306307" lon="13.113041">
+    <ele>225.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A04022</name>
+    <cmt>BORDANO LANDING</cmt>
+    <desc>BORDANO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.317266" lon="13.059216">
+    <ele>200.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A07020</name>
+    <cmt>ALESSO LANDING</cmt>
+    <desc>ALESSO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.225333" lon="13.227583">
+    <ele>275.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A05027</name>
+    <cmt>PALUZ LANDING</cmt>
+    <desc>PALUZ LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.216200" lon="13.273033">
+    <ele>229.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A06023</name>
+    <cmt>BERNADIA LANDING</cmt>
+    <desc>BERNADIA LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.205766" lon="12.818650">
+    <ele>274.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A15027</name>
+    <cmt>MEDUNO LANDING</cmt>
+    <desc>MEDUNO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.391249" lon="12.671970">
+    <ele>739.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A20074</name>
+    <cmt>FORNIDISOTTO LANDING</cmt>
+    <desc>FORNIDISOTTO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.287594" lon="12.801137">
+    <ele>381.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A16038</name>
+    <cmt>TRAMONTI LANDING</cmt>
+    <desc>TRAMONTI LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.403737" lon="13.379562">
+    <ele>509.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A10051</name>
+    <cmt>SALETTO LANDING</cmt>
+    <desc>SALETTO LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.502603" lon="13.374669">
+    <ele>633.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A19063</name>
+    <cmt>LUSNIZZA LANDING</cmt>
+    <desc>LUSNIZZA LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.287793" lon="13.120888">
+    <ele>203.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A03020</name>
+    <cmt>WILLY LANDING</cmt>
+    <desc>WILLY LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.465356" lon="12.681098">
+    <ele>1385.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>A21138</name>
+    <cmt>SAURIS LANDING</cmt>
+    <desc>SAURIS LANDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.549903" lon="12.976688">
+    <ele>1564.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>D04156</name>
+    <cmt>TENCHIA TOFF</cmt>
+    <desc>TENCHIA TOFF</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.546982" lon="12.925940">
+    <ele>1896.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>D05190</name>
+    <cmt>VALSECCA TOFF</cmt>
+    <desc>VALSECCA TOFF</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.273833" lon="13.175599">
+    <ele>1149.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>D01115</name>
+    <cmt>CUARNAN T OFF</cmt>
+    <desc>CUARNAN T OFF</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.330166" lon="13.101417">
+    <ele>1152.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>D02115</name>
+    <cmt>S.SIMEONE T OFF</cmt>
+    <desc>S.SIMEONE T OFF</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.230516" lon="12.806616">
+    <ele>974.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>D03097</name>
+    <cmt>MEDUNO T OFF</cmt>
+    <desc>MEDUNO T OFF</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.233633" lon="13.019350">
+    <ele>560.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>X06056</name>
+    <cmt>CORNINO PARK</cmt>
+    <desc>CORNINO PARK</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.235433" lon="13.073383">
+    <ele>180.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>X05018</name>
+    <cmt>RIVOLI AIRFIELD</cmt>
+    <desc>RIVOLI AIRFIELD</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.313333" lon="13.141666">
+    <ele>320.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>X02032</name>
+    <cmt>SHOOTING RANGE</cmt>
+    <desc>SHOOTING RANGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.244500" lon="13.087500">
+    <ele>180.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>X04018</name>
+    <cmt>POWDER MAGAZINE</cmt>
+    <desc>POWDER MAGAZINE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.322800" lon="13.133540">
+    <ele>230.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>X03023</name>
+    <cmt>VENZONE BASIS</cmt>
+    <desc>VENZONE BASIS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.277322" lon="13.121931">
+    <ele>198.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>X01020</name>
+    <cmt>GEMONA BASIS</cmt>
+    <desc>GEMONA BASIS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.507275" lon="12.932302">
+    <ele>1700.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G61170</name>
+    <cmt>ZONCOLAN MOUNT</cmt>
+    <desc>ZONCOLAN MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.423290" lon="12.932967">
+    <ele>725.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G52072</name>
+    <cmt>LAUCO VILLAGE</cmt>
+    <desc>LAUCO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.446686" lon="12.825582">
+    <ele>961.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G63096</name>
+    <cmt>PANI HAMLET</cmt>
+    <desc>PANI HAMLET</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.534158" lon="12.829871">
+    <ele>1462.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G68146</name>
+    <cmt>TALM MOUNT</cmt>
+    <desc>TALM MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.547600" lon="13.085339">
+    <ele>1339.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G59134</name>
+    <cmt>VALDAJER KASTLE</cmt>
+    <desc>VALDAJER KASTLE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.446884" lon="12.986504">
+    <ele>1198.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G49120</name>
+    <cmt>DURON MOUNT</cmt>
+    <desc>DURON MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.505836" lon="13.080081">
+    <ele>1818.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G55182</name>
+    <cmt>TERSADIA MOUNT</cmt>
+    <desc>TERSADIA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.365826" lon="13.033862">
+    <ele>294.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G34030</name>
+    <cmt>CAVAZZO FTBALL FIELD</cmt>
+    <desc>CAVAZZO FTBALL FIELD</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.291817" lon="13.139167">
+    <ele>300.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G03030</name>
+    <cmt>LASER FTBALL FIELD</cmt>
+    <desc>LASER FTBALL FIELD</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.294518" lon="13.180919">
+    <ele>1670.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G02167</name>
+    <cmt>CJAMPON CROSS</cmt>
+    <desc>CJAMPON CROSS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.281217" lon="13.222817">
+    <ele>580.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G06058</name>
+    <cmt>PERS VILLAGE</cmt>
+    <desc>PERS VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.278417" lon="13.261666">
+    <ele>350.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G14035</name>
+    <cmt>PRADIELIS BRIDGE</cmt>
+    <desc>PRADIELIS BRIDGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.285750" lon="13.283400">
+    <ele>860.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G19086</name>
+    <cmt>MICOTTIS CROSS</cmt>
+    <desc>MICOTTIS CROSS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.236816" lon="13.238567">
+    <ele>600.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G12060</name>
+    <cmt>BERNADIA ANTENNAS</cmt>
+    <desc>BERNADIA ANTENNAS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.246783" lon="13.227283">
+    <ele>620.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G08062</name>
+    <cmt>STELLA CHURCH</cmt>
+    <desc>STELLA CHURCH</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.243917" lon="13.193333">
+    <ele>670.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G04067</name>
+    <cmt>FAEIT STABLE</cmt>
+    <desc>FAEIT STABLE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.254483" lon="13.178833">
+    <ele>440.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G01044</name>
+    <cmt>MONTENARS FTBALL FIELD</cmt>
+    <desc>MONTENARS FTBALL FIELD</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.282533" lon="13.093622">
+    <ele>199.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G13020</name>
+    <cmt>BRAULINS BRIDGE</cmt>
+    <desc>BRAULINS BRIDGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.271083" lon="13.308417">
+    <ele>610.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G22061</name>
+    <cmt>MONTEAPERTA TENNIS</cmt>
+    <desc>MONTEAPERTA TENNIS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.272267" lon="13.337617">
+    <ele>510.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G29051</name>
+    <cmt>CORNAPPO VILLAGE</cmt>
+    <desc>CORNAPPO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.179394" lon="13.384245">
+    <ele>677.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G44068</name>
+    <cmt>CANEBOLA VILLAGE</cmt>
+    <desc>CANEBOLA VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.259333" lon="13.041500">
+    <ele>190.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G24019</name>
+    <cmt>PEONIS VILLAGE</cmt>
+    <desc>PEONIS VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.336570" lon="13.002455">
+    <ele>1193.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G36120</name>
+    <cmt>PICIAT MOUNT</cmt>
+    <desc>PICIAT MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.272090" lon="12.997249">
+    <ele>1301.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G31130</name>
+    <cmt>CUAR MOUNT</cmt>
+    <desc>CUAR MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.273150" lon="13.127266">
+    <ele>190.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G05019</name>
+    <cmt>MANIFATTURE SHOP</cmt>
+    <desc>MANIFATTURE SHOP</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.240500" lon="13.153667">
+    <ele>220.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G07022</name>
+    <cmt>ARTEGNA CHURCH</cmt>
+    <desc>ARTEGNA CHURCH</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.251233" lon="13.115383">
+    <ele>180.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G10018</name>
+    <cmt>LESSI CHURCH</cmt>
+    <desc>LESSI CHURCH</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.216666" lon="13.121499">
+    <ele>314.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G16032</name>
+    <cmt>BUIA MOUNT</cmt>
+    <desc>BUIA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.206333" lon="13.345000">
+    <ele>715.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G37071</name>
+    <cmt>SUBIT VILLAGE</cmt>
+    <desc>SUBIT VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.219240" lon="13.066585">
+    <ele>164.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G23016</name>
+    <cmt>RIVOLI VILLAGE</cmt>
+    <desc>RIVOLI VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.259873" lon="13.081391">
+    <ele>275.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G15027</name>
+    <cmt>OSOPPO BLOCKHOUSE</cmt>
+    <desc>OSOPPO BLOCKHOUSE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.181467" lon="13.297766">
+    <ele>180.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G32018</name>
+    <cmt>ATTIMIS FACTORY</cmt>
+    <desc>ATTIMIS FACTORY</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.233967" lon="13.302200">
+    <ele>550.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G26055</name>
+    <cmt>MONTEPRATO VILLAGE</cmt>
+    <desc>MONTEPRATO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.340500" lon="13.200666">
+    <ele>1300.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G17130</name>
+    <cmt>UNGARINA HUT</cmt>
+    <desc>UNGARINA HUT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.347000" lon="13.165383">
+    <ele>1300.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G18130</name>
+    <cmt>PLAURIS SHELTER</cmt>
+    <desc>PLAURIS SHELTER</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.244000" lon="12.921800">
+    <ele>1175.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G45117</name>
+    <cmt>POLPAZZA HUT</cmt>
+    <desc>POLPAZZA HUT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.369416" lon="13.107550">
+    <ele>250.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G28025</name>
+    <cmt>CISON LAKE</cmt>
+    <desc>CISON LAKE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.395353" lon="13.090691">
+    <ele>1385.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G35138</name>
+    <cmt>AMARIANA MOUNT</cmt>
+    <desc>AMARIANA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.274583" lon="13.028000">
+    <ele>1130.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G27113</name>
+    <cmt>COVRIA MOUNT</cmt>
+    <desc>COVRIA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.228566" lon="13.176533">
+    <ele>200.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G09020</name>
+    <cmt>MAGNANO VILLAGE</cmt>
+    <desc>MAGNANO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.151700" lon="13.345517">
+    <ele>170.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G42017</name>
+    <cmt>FAEDIS VILLAGE</cmt>
+    <desc>FAEDIS VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.193267" lon="13.229166">
+    <ele>240.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G21024</name>
+    <cmt>LONERIACCO VILLAGE</cmt>
+    <desc>LONERIACCO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.190550" lon="13.157233">
+    <ele>230.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G20023</name>
+    <cmt>TREPPO G VILLAGE</cmt>
+    <desc>TREPPO G VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.209614" lon="12.960647">
+    <ele>176.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G40017</name>
+    <cmt>FLAGOGNA VILLAGE</cmt>
+    <desc>FLAGOGNA VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.234999" lon="12.769483">
+    <ele>927.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G60093</name>
+    <cmt>CEREIS HILL</cmt>
+    <desc>CEREIS HILL</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.216950" lon="12.788400">
+    <ele>300.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G57030</name>
+    <cmt>MEDUNO VILLAGE</cmt>
+    <desc>MEDUNO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.199917" lon="12.902965">
+    <ele>250.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G47025</name>
+    <cmt>PALUDEA VILLAGE</cmt>
+    <desc>PALUDEA VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.295633" lon="13.245983">
+    <ele>1420.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G11142</name>
+    <cmt>POSTOUCICCO MOUNT</cmt>
+    <desc>POSTOUCICCO MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.321989" lon="13.292394">
+    <ele>1603.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G25160</name>
+    <cmt>BROLLO HUT</cmt>
+    <desc>BROLLO HUT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.345799" lon="12.958683">
+    <ele>1610.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G41161</name>
+    <cmt>PIOMBADA MOUNT</cmt>
+    <desc>PIOMBADA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.331766" lon="12.918167">
+    <ele>1210.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G46121</name>
+    <cmt>CUESTA SPIOLEIT</cmt>
+    <desc>CUESTA SPIOLEIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.583661" lon="12.696955">
+    <ele>1990.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G74200</name>
+    <cmt>SAPPADA 2000</cmt>
+    <desc>SAPPADA 2000</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.448493" lon="12.725448">
+    <ele>977.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G69097</name>
+    <cmt>SAURIS LAKE</cmt>
+    <desc>SAURIS LAKE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.519927" lon="12.675777">
+    <ele>1744.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G73174</name>
+    <cmt>DEGASPERI SHELTER</cmt>
+    <desc>DEGASPERI SHELTER</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.421157" lon="12.745980">
+    <ele>1402.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G65140</name>
+    <cmt>PURA PASS</cmt>
+    <desc>PURA PASS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.262251" lon="12.692457">
+    <ele>426.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G66042</name>
+    <cmt>SELVA LAKE</cmt>
+    <desc>SELVA LAKE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.354097" lon="12.787006">
+    <ele>1050.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G58105</name>
+    <cmt>REST PASS</cmt>
+    <desc>REST PASS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.314214" lon="12.714468">
+    <ele>1755.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G64175</name>
+    <cmt>FRASCOLA MOUNT</cmt>
+    <desc>FRASCOLA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.178571" lon="12.634645">
+    <ele>1223.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G72122</name>
+    <cmt>FARA MOUNT</cmt>
+    <desc>FARA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.296241" lon="12.628006">
+    <ele>1498.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G71150</name>
+    <cmt>CASERATA FORK</cmt>
+    <desc>CASERATA FORK</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.328716" lon="12.842273">
+    <ele>1659.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G54166</name>
+    <cmt>VALCALDA MOUNT</cmt>
+    <desc>VALCALDA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.479009" lon="13.123464">
+    <ele>1413.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G48141</name>
+    <cmt>SERNIO HUT</cmt>
+    <desc>SERNIO HUT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.433018" lon="13.181186">
+    <ele>1309.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G39130</name>
+    <cmt>MONTICELLO</cmt>
+    <desc>MONTICELLO</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.406723" lon="13.329935">
+    <ele>1132.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G43113</name>
+    <cmt>JAMA MOUNT</cmt>
+    <desc>JAMA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.411673" lon="13.433969">
+    <ele>1512.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G53151</name>
+    <cmt>MONTASIO PLATEAU</cmt>
+    <desc>MONTASIO PLATEAU</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.465895" lon="13.336200">
+    <ele>1606.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G51160</name>
+    <cmt>DOGNA JOF</cmt>
+    <desc>DOGNA JOF</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.399728" lon="13.166291">
+    <ele>300.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G33030</name>
+    <cmt>CAMPIOLO VILLAGE</cmt>
+    <desc>CAMPIOLO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.506052" lon="13.305961">
+    <ele>555.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G56055</name>
+    <cmt>PONTEBBA CITY</cmt>
+    <desc>PONTEBBA CITY</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.363434" lon="13.351359">
+    <ele>575.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G38057</name>
+    <cmt>STOLVIZZA VILLAGE</cmt>
+    <desc>STOLVIZZA VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.377705" lon="13.261126">
+    <ele>350.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G30035</name>
+    <cmt>RESIA VALLEY</cmt>
+    <desc>RESIA VALLEY</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.104114" lon="13.511897">
+    <ele>225.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G62022</name>
+    <cmt>CASTELMONTE WAY</cmt>
+    <desc>CASTELMONTE WAY</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.141924" lon="13.424723">
+    <ele>536.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G50053</name>
+    <cmt>MERIA FOUNT</cmt>
+    <desc>MERIA FOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.503831" lon="13.579865">
+    <ele>728.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G70073</name>
+    <cmt>TARVISIO CITY</cmt>
+    <desc>TARVISIO CITY</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.222071" lon="12.681889">
+    <ele>1297.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>G67130</name>
+    <cmt>RAUT MOUNT</cmt>
+    <desc>RAUT MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.179000" lon="12.707999">
+    <ele>312.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E23031</name>
+    <cmt>MANIAGO NORTH</cmt>
+    <desc>MANIAGO NORTH</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.561279" lon="13.151107">
+    <ele>2106.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E20210</name>
+    <cmt>ZERMULA MOUNT</cmt>
+    <desc>ZERMULA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.287000" lon="13.349899">
+    <ele>1468.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E02147</name>
+    <cmt>BRINIZA MOUNT</cmt>
+    <desc>BRINIZA MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.278416" lon="13.454044">
+    <ele>1645.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E10164</name>
+    <cmt>STOL ANTENNAS</cmt>
+    <desc>STOL ANTENNAS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.255593" lon="13.371292">
+    <ele>690.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E07069</name>
+    <cmt>CAMPO DI BONIS</cmt>
+    <desc>CAMPO DI BONIS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.197383" lon="12.997600">
+    <ele>480.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E08048</name>
+    <cmt>MURIS ANTENNAS</cmt>
+    <desc>MURIS ANTENNAS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.184200" lon="13.057166">
+    <ele>170.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E04017</name>
+    <cmt>MAJANO BUILDING</cmt>
+    <desc>MAJANO BUILDING</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.186686" lon="13.117687">
+    <ele>169.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E01017</name>
+    <cmt>A23 SERVICE STATION</cmt>
+    <desc>A23 SERVICE STATION</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.181700" lon="12.822116">
+    <ele>238.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E16024</name>
+    <cmt>SOLIMBERGO AIRFIELD</cmt>
+    <desc>SOLIMBERGO AIRFIELD</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.153566" lon="13.152650">
+    <ele>181.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E03018</name>
+    <cmt>PRADIS VILLAGE</cmt>
+    <desc>PRADIS VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.113950" lon="13.362733">
+    <ele>120.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E12012</name>
+    <cmt>CASE PRESA</cmt>
+    <desc>CASE PRESA</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.029933" lon="13.390317">
+    <ele>90.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E19009</name>
+    <cmt>PADERNO IND ZONE</cmt>
+    <desc>PADERNO IND ZONE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.155700" lon="13.254000">
+    <ele>159.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E05016</name>
+    <cmt>CORTALE VILLAGE</cmt>
+    <desc>CORTALE VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.179000" lon="12.879233">
+    <ele>200.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E14020</name>
+    <cmt>COOPERS USAGO</cmt>
+    <desc>COOPERS USAGO</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.065915" lon="13.237774">
+    <ele>109.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E13011</name>
+    <cmt>UDINE CITY</cmt>
+    <desc>UDINE CITY</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.015857" lon="13.107095">
+    <ele>73.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E17007</name>
+    <cmt>BASILIANO VILLAGE</cmt>
+    <desc>BASILIANO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.038757" lon="12.827400">
+    <ele>82.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E22008</name>
+    <cmt>RAUSCEDO VILLAGE</cmt>
+    <desc>RAUSCEDO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.106975" lon="12.518799">
+    <ele>1270.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E30127</name>
+    <cmt>PIANCAVALLO VILLAGE</cmt>
+    <desc>PIANCAVALLO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.287700" lon="12.437626">
+    <ele>652.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E31065</name>
+    <cmt>CIMOLAIS VILLAGE</cmt>
+    <desc>CIMOLAIS VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.655298" lon="12.419658">
+    <ele>1641.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E35164</name>
+    <cmt>COMELICO PASS</cmt>
+    <desc>COMELICO PASS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.661965" lon="12.999761">
+    <ele>710.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E26071</name>
+    <cmt>MAUTHEN CITY</cmt>
+    <desc>MAUTHEN CITY</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.670578" lon="13.306064">
+    <ele>706.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E27070</name>
+    <cmt>ST LORENZEN AT</cmt>
+    <desc>ST LORENZEN AT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.610867" lon="12.868856">
+    <ele>1947.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E25195</name>
+    <cmt>VOLAYA LAKE</cmt>
+    <desc>VOLAYA LAKE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.587193" lon="13.030302">
+    <ele>1509.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E21150</name>
+    <cmt>PRAMOSIO HUT</cmt>
+    <desc>PRAMOSIO HUT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.567414" lon="13.470030">
+    <ele>1896.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E24190</name>
+    <cmt>STARHAND AT</cmt>
+    <desc>STARHAND AT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.655873" lon="13.676613">
+    <ele>755.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E32075</name>
+    <cmt>EBENWALD AT</cmt>
+    <desc>EBENWALD AT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.310873" lon="13.356599">
+    <ele>820.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E06082</name>
+    <cmt>TANAMEA PASS</cmt>
+    <desc>TANAMEA PASS</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.246970" lon="13.584040">
+    <ele>291.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E18029</name>
+    <cmt>KOBARID VILLAGE</cmt>
+    <desc>KOBARID VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.550097" lon="12.443251">
+    <ele>849.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E34085</name>
+    <cmt>AURONZO VILLAGE</cmt>
+    <desc>AURONZO VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.155830" lon="13.009193">
+    <ele>207.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E09020</name>
+    <cmt>S DANIELE VILLAGE</cmt>
+    <desc>S DANIELE VILLAGE</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.441564" lon="12.566546">
+    <ele>1607.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E29160</name>
+    <cmt>CLAP VARMOST</cmt>
+    <desc>CLAP VARMOST</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.359690" lon="13.440058">
+    <ele>2435.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E11243</name>
+    <cmt>CANIN PEAK</cmt>
+    <desc>CANIN PEAK</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.202956" lon="13.538488">
+    <ele>1316.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E15132</name>
+    <cmt>MATAJUR SHELTER</cmt>
+    <desc>MATAJUR SHELTER</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.008160" lon="13.642789">
+    <ele>482.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E28048</name>
+    <cmt>SABOTINO MOUNT</cmt>
+    <desc>SABOTINO MOUNT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.004657" lon="12.466679">
+    <ele>153.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>E33015</name>
+    <cmt>SARONE PIT</cmt>
+    <desc>SARONE PIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.175125" lon="12.629394">
+    <ele>866.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L02086</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.597583" lon="12.623744">
+    <ele>1669.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L03167</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.510058" lon="13.610914">
+    <ele>727.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L05073</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.091666" lon="13.533889">
+    <ele>288.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L08029</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.208889" lon="13.047222">
+    <ele>159.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L01016</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.549494" lon="13.128036">
+    <ele>1131.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L04113</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.359444" lon="13.368055">
+    <ele>563.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L06056</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.243611" lon="13.334166">
+    <ele>401.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L07040</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+  <wpt lat="46.146667" lon="13.305833">
+    <ele>142.0</ele>
+    <time>2016-05-27T06:19:10</time>
+    <name>L09014</name>
+    <cmt>AREA LIMIT</cmt>
+    <desc>AREA LIMIT</desc>
+    <sym>Dot</sym>
+  </wpt>
+</gpx>

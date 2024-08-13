@@ -1,0 +1,124 @@
+{
+  "version" : 1,
+  "taskType" : "CLASSIC",
+  "turnpoints" : [{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" : 13.26278279,
+         "lat" : 46.22571671,
+         "altSmoothed" : 721.0,
+         "name" : "DEC",
+         "description" : "D03072"
+       }
+       
+        ,
+        "type" : "TAKEOFF"
+       
+     },{
+       "radius" : 3000.0,
+       "waypoint" : {
+         "lon" : 13.34499987,
+         "lat" : 46.20633272,
+         "altSmoothed" : 717.0,
+         "name" : "SUBIT",
+         "description" : "B20072"
+       }
+       
+        ,
+        "type" : "SSS"
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" : 13.15366684,
+         "lat" : 46.24049988,
+         "altSmoothed" : 223.0,
+         "name" : "CHIESA",
+         "description" : "B10022"
+       }
+       
+     },{
+       "radius" : 5500.0,
+       "waypoint" : {
+         "lon" : 13.305833333333334,
+         "lat" : 46.14666666666667,
+         "altSmoothed" : 142.0,
+         "name" : "AREA LIMIT",
+         "description" : "L09014"
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" : 13.22728274,
+         "lat" : 46.24678278,
+         "altSmoothed" : 591.0,
+         "name" : "CHIESA",
+         "description" : "B09059"
+       }
+       
+     },{
+       "radius" : 1500.0,
+       "waypoint" : {
+         "lon" : 13.29776684,
+         "lat" : 46.18146881,
+         "altSmoothed" : 176.0,
+         "name" : "ATTIMIS",
+         "description" : "B22018"
+       }
+       
+     },{
+       "radius" : 3000.0,
+       "waypoint" : {
+         "lon" : 13.334166666666667,
+         "lat" : 46.24361666666667,
+         "altSmoothed" : 401.0,
+         "name" : "AREA LIMIT",
+         "description" : "L07040"
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" : 13.227583333333333,
+         "lat" : 46.22533333333333,
+         "altSmoothed" : 275.0,
+         "name" : "PALUZ LANDING",
+         "description" : "A05027"
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" : 13.27296898,
+         "lat" : 46.21618096,
+         "altSmoothed" : 228.0,
+         "name" : "ATT",
+         "description" : "A06023"
+       }
+       
+        ,
+        "type" : "ESS"
+       
+     },{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" : 13.27296898,
+         "lat" : 46.21618096,
+         "altSmoothed" : 228.0,
+         "name" : "ATT",
+         "description" : "A06023"
+       }
+       
+     }
+  ],
+  "sss" : {
+    "type" : "RACE",
+    "direction" : "EXIT",
+    "timeGates" : ["14:00:00Z"]
+  },  
+  "goal" : {
+    "type" : "CYLINDER",
+    "deadline" : "19:00:00Z"
+  }
+}

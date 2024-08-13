@@ -1,0 +1,110 @@
+{
+    "version": 1,
+    "taskType": "CLASSIC",
+    "earthModel": "WGS84",
+    "turnpoints": [
+        {
+            "radius": 400,
+            "waypoint": {
+                "lon": 13.17562,
+                "lat": 46.27383,
+                "altSmoothed": 1151,
+                "name": "D01115",
+                "description": ""
+            }
+        },
+        {
+            "radius": 2000,
+            "waypoint": {
+                "lon": 13.17562,
+                "lat": 46.27383,
+                "altSmoothed": 1151,
+                "name": "D01115",
+                "description": ""
+            },
+            "type": "SSS"
+        },
+        {
+            "radius": 7000,
+            "waypoint": {
+                "lon": 13.22917,
+                "lat": 46.19327,
+                "altSmoothed": 240,
+                "name": "B40024",
+                "description": ""
+            }
+        },
+        {
+            "radius": 4000,
+            "waypoint": {
+                "lon": 13.08287,
+                "lat": 46.29593,
+                "altSmoothed": 976,
+                "name": "B34098",
+                "description": ""
+            }
+        },
+        {
+            "radius": 6500,
+            "waypoint": {
+                "lon": 13.26167,
+                "lat": 46.27842,
+                "altSmoothed": 352,
+                "name": "B14035",
+                "description": ""
+            }
+        },
+        {
+            "radius": 2000,
+            "waypoint": {
+                "lon": 13.11538,
+                "lat": 46.25123,
+                "altSmoothed": 192,
+                "name": "B11019",
+                "description": ""
+            }
+        },
+        {
+            "radius": 7000,
+            "waypoint": {
+                "lon": 13.22917,
+                "lat": 46.19327,
+                "altSmoothed": 240,
+                "name": "B40024",
+                "description": ""
+            }
+        },
+        {
+            "radius": 2000,
+            "waypoint": {
+                "lon": 13.11311,
+                "lat": 46.307,
+                "altSmoothed": 225,
+                "name": "A03023",
+                "description": ""
+            },
+            "type": "ESS"
+        },
+        {
+            "radius": 300,
+            "waypoint": {
+                "lon": 13.11311,
+                "lat": 46.307,
+                "altSmoothed": 225,
+                "name": "A03023",
+                "description": ""
+            }
+        }
+    ],
+    "sss": {
+        "type": "RACE",
+        "direction": "EXIT",
+        "timeGates": [
+            "2024-08-03 11:45:00Z"
+        ]
+    },
+    "goal": {
+        "type": "CYLINDER",
+        "deadline": "2024-08-03 18:00:00Z"
+    }
+}

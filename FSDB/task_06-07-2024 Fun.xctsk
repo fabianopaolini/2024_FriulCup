@@ -1,0 +1,114 @@
+{
+  "version" : 1,
+  "taskType" : "CLASSIC",
+  "turnpoints" : [{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" : 13.26278279,
+         "lat" : 46.22571671,
+         "altSmoothed" : 721.0,
+         "name" : "DEC",
+         "description" : "D03072"
+       }
+       
+        ,
+        "type" : "TAKEOFF"
+       
+     },{
+       "radius" : 2500.0,
+       "waypoint" : {
+         "lon" : 13.229167,
+         "lat" : 46.19326685,
+         "altSmoothed" : 240.0,
+         "name" : "LONERIACCO",
+         "description" : "B40024"
+       }
+       
+        ,
+        "type" : "SSS"
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" : 13.30220791,
+         "lat" : 46.23396384,
+         "altSmoothed" : 548.0,
+         "name" : "MTEPRATO",
+         "description" : "B23055"
+       }
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" : 13.29776684,
+         "lat" : 46.18146881,
+         "altSmoothed" : 176.0,
+         "name" : "ATTIMIS",
+         "description" : "B22018"
+       }
+       
+     },{
+       "radius" : 3500.0,
+       "waypoint" : {
+         "lon" : 13.19333268,
+         "lat" : 46.24391668,
+         "altSmoothed" : 687.0,
+         "name" : "STALLA",
+         "description" : "B08069"
+       }
+       
+     },{
+       "radius" : 4000.0,
+       "waypoint" : {
+         "lon" : 13.34499987,
+         "lat" : 46.20633272,
+         "altSmoothed" : 717.0,
+         "name" : "SUBIT",
+         "description" : "B20072"
+       }
+       
+     },{
+       "radius" : 1500.0,
+       "waypoint" : {
+         "lon" : 13.22728274,
+         "lat" : 46.24678278,
+         "altSmoothed" : 591.0,
+         "name" : "CHIESA",
+         "description" : "B09059"
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" : 13.27296898,
+         "lat" : 46.21618096,
+         "altSmoothed" : 228.0,
+         "name" : "ATT",
+         "description" : "A06023"
+       }
+       
+        ,
+        "type" : "ESS"
+       
+     },{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" : 13.27296898,
+         "lat" : 46.21618096,
+         "altSmoothed" : 228.0,
+         "name" : "ATT",
+         "description" : "A06023"
+       }
+       
+     }
+  ],
+  "sss" : {
+    "type" : "RACE",
+    "direction" : "EXIT",
+    "timeGates" : ["12:00:00Z"]
+  },  
+  "goal" : {
+    "type" : "CYLINDER",
+    "deadline" : "19:00:00Z"
+  }
+}
