@@ -1,0 +1,94 @@
+{
+  "version" : 1,
+  "taskType" : "CLASSIC",
+  "turnpoints" : [{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" : 13.175599,
+         "lat" : 46.273833,
+         "altSmoothed" : 1149.0,
+         "name" : "CUARNAN T OFF",
+         "description" : "D01115"
+       }
+       
+        ,
+        "type" : "TAKEOFF"
+       
+     },{
+       "radius" : 5000.0,
+       "waypoint" : {
+         "lon" : 13.081391,
+         "lat" : 46.259873,
+         "altSmoothed" : 275.0,
+         "name" : "OSOPPO BLOCKHOUSE",
+         "description" : "G15027"
+       }
+       
+        ,
+        "type" : "SSS"
+       
+     },{
+       "radius" : 3000.0,
+       "waypoint" : {
+         "lon" : 13.349899,
+         "lat" : 46.287000,
+         "altSmoothed" : 1468.0,
+         "name" : "BRINIZA MOUNT",
+         "description" : "E02147"
+       }
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" : 13.002455,
+         "lat" : 46.336570,
+         "altSmoothed" : 1193.0,
+         "name" : "PICIAT MOUNT",
+         "description" : "G36120"
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" : 13.165383,
+         "lat" : 46.347000,
+         "altSmoothed" : 1300.0,
+         "name" : "PLAURIS SHELTER",
+         "description" : "G18130"
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" : 13.113041,
+         "lat" : 46.306307,
+         "altSmoothed" : 225.0,
+         "name" : "BORDANO LANDING",
+         "description" : "A04022"
+       }
+       
+        ,
+        "type" : "ESS"
+       
+     },{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" : 13.113041,
+         "lat" : 46.306307,
+         "altSmoothed" : 225.0,
+         "name" : "BORDANO LANDING",
+         "description" : "A04022"
+       }
+       
+     }
+  ],
+  "sss" : {
+    "type" : "RACE",
+    "direction" : "EXIT",
+    "timeGates" : ["14:00:00Z"]
+  },  
+  "goal" : {
+    "type" : "CYLINDER",
+    "deadline" : "19:00:00Z"
+  }
+}

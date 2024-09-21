@@ -1,0 +1,94 @@
+{
+  "version" : 1,
+  "taskType" : "CLASSIC",
+  "turnpoints" : [{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" : 13.175599,
+         "lat" : 46.273833,
+         "altSmoothed" : 1149.0,
+         "name" : "CUARNAN T OFF",
+         "description" : "D01115"
+       }
+       
+        ,
+        "type" : "TAKEOFF"
+       
+     },{
+       "radius" : 6000.0,
+       "waypoint" : {
+         "lon" : 13.157233,
+         "lat" : 46.190550,
+         "altSmoothed" : 230.0,
+         "name" : "TREPPO G VILLAGE",
+         "description" : "G20023"
+       }
+       
+        ,
+        "type" : "SSS"
+       
+     },{
+       "radius" : 2000.0,
+       "waypoint" : {
+         "lon" : 13.245983,
+         "lat" : 46.295633,
+         "altSmoothed" : 1420.0,
+         "name" : "POSTOUCICCO MOUNT",
+         "description" : "G11142"
+       }
+       
+     },{
+       "radius" : 4000.0,
+       "waypoint" : {
+         "lon" : 13.101417,
+         "lat" : 46.330166,
+         "altSmoothed" : 1152.0,
+         "name" : "S.SIMEONE T OFF",
+         "description" : "D02115"
+       }
+       
+     },{
+       "radius" : 3000.0,
+       "waypoint" : {
+         "lon" : 13.227283,
+         "lat" : 46.246783,
+         "altSmoothed" : 620.0,
+         "name" : "STELLA CHURCH",
+         "description" : "G08062"
+       }
+       
+     },{
+       "radius" : 1000.0,
+       "waypoint" : {
+         "lon" : 13.113041,
+         "lat" : 46.306307,
+         "altSmoothed" : 225.0,
+         "name" : "BORDANO LANDING",
+         "description" : "A04022"
+       }
+       
+        ,
+        "type" : "ESS"
+       
+     },{
+       "radius" : 400.0,
+       "waypoint" : {
+         "lon" : 13.113041,
+         "lat" : 46.306307,
+         "altSmoothed" : 225.0,
+         "name" : "BORDANO LANDING",
+         "description" : "A04022"
+       }
+       
+     }
+  ],
+  "sss" : {
+    "type" : "RACE",
+    "direction" : "EXIT",
+    "timeGates" : ["14:00:00Z"]
+  },  
+  "goal" : {
+    "type" : "CYLINDER",
+    "deadline" : "19:00:00Z"
+  }
+}
