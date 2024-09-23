@@ -1,0 +1,90 @@
+{
+    "version": 1,
+    "taskType": "CLASSIC",
+    "earthModel": "WGS84",
+    "turnpoints": [
+        {
+            "radius": 400,
+            "waypoint": {
+                "lon": 13.1756,
+                "lat": 46.27383,
+                "altSmoothed": 1149,
+                "name": "D01115",
+                "description": ""
+            }
+        },
+        {
+            "radius": 6000,
+            "waypoint": {
+                "lon": 13.15723,
+                "lat": 46.19055,
+                "altSmoothed": 230,
+                "name": "G20023",
+                "description": ""
+            },
+            "type": "SSS"
+        },
+        {
+            "radius": 2000,
+            "waypoint": {
+                "lon": 13.24598,
+                "lat": 46.29563,
+                "altSmoothed": 1420,
+                "name": "G11142",
+                "description": ""
+            }
+        },
+        {
+            "radius": 4000,
+            "waypoint": {
+                "lon": 13.10142,
+                "lat": 46.33017,
+                "altSmoothed": 1152,
+                "name": "D02115",
+                "description": ""
+            }
+        },
+        {
+            "radius": 3000,
+            "waypoint": {
+                "lon": 13.22728,
+                "lat": 46.24678,
+                "altSmoothed": 620,
+                "name": "G08062",
+                "description": ""
+            }
+        },
+        {
+            "radius": 1000,
+            "waypoint": {
+                "lon": 13.11303,
+                "lat": 46.3063,
+                "altSmoothed": 225,
+                "name": "A04022",
+                "description": ""
+            },
+            "type": "ESS"
+        },
+        {
+            "radius": 400,
+            "waypoint": {
+                "lon": 13.11303,
+                "lat": 46.3063,
+                "altSmoothed": 225,
+                "name": "A04022",
+                "description": ""
+            }
+        }
+    ],
+    "sss": {
+        "type": "RACE",
+        "direction": "EXIT",
+        "timeGates": [
+            "2024-09-22 11:00:00Z"
+        ]
+    },
+    "goal": {
+        "type": "CYLINDER",
+        "deadline": "2024-09-22 18:00:00Z"
+    }
+}
